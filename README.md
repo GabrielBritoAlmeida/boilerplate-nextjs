@@ -1,4 +1,4 @@
-![React Avançado](https://github.com/GabrielBritoAlmeida/boilerplate-nextjs/tree/main/public/img/logo-gh.svg)
+![React Avançado](https://github.com/GabrielBritoAlmeida/boilerplate-nextjs/blob/main/public/img/logo-gh.svg)
 
 This is a [Next.js](https://nextjs.org/) boilerplate.
 
