@@ -4,7 +4,6 @@ import {
   DefaultTheme,
   GlobalStyleComponent
 } from 'styled-components'
-import { theme } from './theme'
 
 type GlobalStylesProps = {
   removeBg?: boolean
@@ -28,9 +27,15 @@ const GlobalStyles: GlobalStyleComponent<
     }
   }
 
-  ${({ removeBg }) => css`
+  ${({ theme, removeBg }) => css`
     html {
       font-size: 62.5%;
+    }
+
+    html,
+    body,
+    #__next {
+      height: 100%;
     }
 
     body {
@@ -43,9 +48,6 @@ const GlobalStyles: GlobalStyleComponent<
       `}
     }
   `}
-
-
-
 `
 
 export default GlobalStyles
